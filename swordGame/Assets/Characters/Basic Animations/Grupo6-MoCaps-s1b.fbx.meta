@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 2e2f500ffe7c96a4d89e26dd55d25c9e
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 1897858491760597170
+    second: dash left
+  - first:
+      74: -583460489224354072
+    second: dash right
+  - first:
+      74: -6776186408362441192
+    second: dash back
+  - first:
+      74: 3374613219183224518
+    second: run forward
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'santiago2' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'santiago_Spine1' has translation animation
+      that will be discarded.\n\t'santiago_Head' has translation animation that will
+      be discarded.\n\t'santiago_LeftHand' has translation animation that will be
+      discarded.\n\t'santiago_RightHand' has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: dash left
+      takeName: santiago2
+      internalID: 1897858491760597170
+      firstFrame: 200
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dash right
+      takeName: santiago2
+      internalID: -583460489224354072
+      firstFrame: 392
+      lastFrame: 462
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dash back
+      takeName: santiago2
+      internalID: -6776186408362441192
+      firstFrame: 590
+      lastFrame: 660
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run forward
+      takeName: santiago2
+      internalID: 3374613219183224518
+      firstFrame: 910
+      lastFrame: 970
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.14774813
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.3792795
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5819822
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.79369336
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.98288345
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.6
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: santiago_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: santiago_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Grupo6-MoCaps-s1b(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_Hips
+      parentName: Grupo6-MoCaps-s1b(Clone)
+      position: {x: 0, y: 1.6141026, z: -0.23208158}
+      rotation: {x: -0.0024412884, y: -0.000010548799, z: 0.0067884703, w: 0.99997395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_Spine
+      parentName: santiago_Hips
+      position: {x: -0, y: 0.1311776, z: 0}
+      rotation: {x: -0.06354486, y: 0.0054165674, z: -0.0048168395, w: 0.9979527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_Spine1
+      parentName: santiago_Spine
+      position: {x: 0.000028038026, y: 0.33964902, z: -0.00008907318}
+      rotation: {x: 0.019898348, y: 0.001814305, z: 0.024060836, w: 0.9995108}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_Neck
+      parentName: santiago_Spine1
+      position: {x: -0, y: 0.37475246, z: 0}
+      rotation: {x: 0.10565592, y: -0.011864124, z: -0.0064498857, w: 0.9943111}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_Head
+      parentName: santiago_Neck
+      position: {x: -0, y: 0.24795765, z: 0.031994537}
+      rotation: {x: -0.002685194, y: -0.009200473, z: -0.029494451, w: 0.999519}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_LeftShoulder
+      parentName: santiago_Spine1
+      position: {x: -0.06470814, y: 0.3134596, z: -0.0028582336}
+      rotation: {x: 0.0024284539, y: -0.03247941, z: -0.13443096, w: 0.99038756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_LeftArm
+      parentName: santiago_LeftShoulder
+      position: {x: -0.18530163, y: 0, z: 0}
+      rotation: {x: 0.020508837, y: 0.03963472, z: 0.14274853, w: 0.9887524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_LeftForeArm
+      parentName: santiago_LeftArm
+      position: {x: -0.49156463, y: 0, z: 0}
+      rotation: {x: 0.040093403, y: 0.00301775, z: -0.0064685578, w: 0.9991704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_LeftHand
+      parentName: santiago_LeftForeArm
+      position: {x: -0.4355156, y: -0.000020408632, z: 0.0000044107437}
+      rotation: {x: 0.040042143, y: -0.001855625, z: -0.05113253, w: 0.99788713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_RightShoulder
+      parentName: santiago_Spine1
+      position: {x: 0.06322453, y: 0.3134596, z: -0.0028582336}
+      rotation: {x: -0.005122199, y: 0.007428655, z: 0.11909648, w: 0.9928417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_RightArm
+      parentName: santiago_RightShoulder
+      position: {x: 0.18530163, y: 0, z: 0}
+      rotation: {x: 0.07533581, y: -0.044863183, z: -0.106369235, w: 0.9904531}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_RightForeArm
+      parentName: santiago_RightArm
+      position: {x: 0.49156463, y: 0, z: 0}
+      rotation: {x: -0.10192932, y: -0.0039516427, z: -0.004435988, w: 0.994774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_RightHand
+      parentName: santiago_RightForeArm
+      position: {x: 0.43178228, y: 0.0000057220464, z: 0.00003553629}
+      rotation: {x: -0.10199998, y: -0.017545352, z: -0.012184664, w: 0.99455506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_LeftUpLeg
+      parentName: santiago_Hips
+      position: {x: -0.15997268, y: 0, z: 0}
+      rotation: {x: -0.030395508, y: 0.0046176147, z: 0.00007297968, w: 0.9995273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_LeftLeg
+      parentName: santiago_LeftUpLeg
+      position: {x: -0, y: -0.7489484, z: 0}
+      rotation: {x: 0.139966, y: -0.0020145332, z: -0.0089145, w: 0.99011415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_LeftFoot
+      parentName: santiago_LeftLeg
+      position: {x: -0, y: -0.6852064, z: 0}
+      rotation: {x: -0.124420665, y: -0.13842826, z: 0.01790862, w: 0.9823627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_LeftToeBase
+      parentName: santiago_LeftFoot
+      position: {x: -0, y: -0.10398223, z: 0.23995902}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_RightUpLeg
+      parentName: santiago_Hips
+      position: {x: 0.15997268, y: 0, z: 0}
+      rotation: {x: 0.014907852, y: -0.005860901, z: -0.010320079, w: 0.99981844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_RightLeg
+      parentName: santiago_RightUpLeg
+      position: {x: -0, y: -0.7489484, z: 0}
+      rotation: {x: 0.03256084, y: 0.013984236, z: -0.0031238925, w: 0.99936706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_RightFoot
+      parentName: santiago_RightLeg
+      position: {x: -0, y: -0.6852064, z: 0}
+      rotation: {x: -0.060942795, y: 0.17388514, z: 0.0038302916, w: 0.98287094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: santiago_RightToeBase
+      parentName: santiago_RightFoot
+      position: {x: -0, y: -0.10398223, z: 0.23995902}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1.6
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
